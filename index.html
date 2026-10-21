@@ -26,16 +26,11 @@
     </div>
     <p class="fine">Launching soon · macOS 14 Sonoma or later · Apple silicon &amp; Intel · 14-day Pro trial, no account needed</p>
 
-    <div class="demo" aria-hidden="true">
+    <div class="demo">
       <div class="bar"><i></i><i></i><i></i></div>
-      <div class="body">
-        <div class="msg"><div class="av"></div><div><b>Support ticket #4821</b>Customer <span class="mosaic short"></span> reports checkout fails after login.</div></div>
-        <div class="msg"><div class="av"></div><div><b>Error log</b>POST /api/pay 401 · token=<span class="mosaic"></span></div></div>
-        <div class="msg"><div class="av"></div><div><b>Steps</b>Open cart → Pay → error banner appears.</div></div>
-        <div class="box" style="left:62px; top:100px; width:430px; height:58px"></div>
-        <div class="step" style="left:500px; top:86px">1</div>
-      </div>
+      <img class="gif" src="img/demo.gif" alt="Demo: Clipveil captures a support ticket, outlines the email, phone number, card number, API key and IP address it found, blacks them all out with one click, then copies the remaining text" width="1100" height="784">
     </div>
+    <p class="fine">All data in the demo is made up.</p>
   </header>
 </div>
 
@@ -52,6 +47,57 @@
       <div class="card"><div class="emoji">🎬</div><h3>Record MP4 &amp; GIF <small>(Pro)</small></h3><p>Record a region of your screen and drop it straight into a bug report.</p></div>
       <div class="card"><div class="emoji">📌</div><h3>Pin &amp; history <small>(Pro)</small></h3><p>Float a screenshot above your work, and reopen recent captures any time.</p></div>
       <div class="card"><div class="emoji">🔒</div><h3>Private by design</h3><p>No account, no cloud, no tracking. Your screenshots never leave your Mac.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="action">
+  <div class="wrap">
+    <h2>See it in action</h2>
+    <p class="sub">Real screenshots of the editor. Secrets are flagged in orange; one click covers them with solid bars.</p>
+    <div class="shots">
+      <figure><img src="img/detect.png" alt="Editor right after a capture: five secrets outlined in orange with labels, and a banner offering Black out all" loading="lazy"><figcaption><b>Found on capture.</b> Email, phone, card, API key and IP, each labelled.</figcaption></figure>
+      <figure><img src="img/blackout.png" alt="The same capture after Black out all: the secrets are covered by solid black bars, everything else is readable" loading="lazy"><figcaption><b>Black out all.</b> Solid bars — pixelated text can be reversed, these can't.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="control">
+  <div class="wrap">
+    <h2>Faces and text: you decide</h2>
+    <p class="sub">Clipveil points things out. Nothing is hidden or copied until you say so.</p>
+    <div class="duo">
+      <div class="card">
+        <div class="pair">
+          <figure><img src="img/faces-found.jpg" alt="A team photo in the Clipveil editor: six faces outlined in orange with a Face label, none hidden yet" loading="lazy"><figcaption>Found — outlined, nothing hidden yet</figcaption></figure>
+          <figure><img src="img/faces-hidden.jpg" alt="The same photo with every face covered by a mosaic" loading="lazy"><figcaption>After “Black out all” — faces mosaicked</figcaption></figure>
+        </div>
+        <h3>Faces are found, never hidden by surprise</h3>
+        <p>Every face Clipveil finds gets an orange outline — it never hides anyone without asking. Click the ones that shouldn't be shared, or hit <b>Black out all</b>. Missed one? Draw a mosaic over it in a second. Prefer hands-off? Automatic mode covers faces as you capture.</p>
+      </div>
+      <div class="card">
+        <img src="img/copytext.png" alt="Editor in text mode: every recognised line outlined, two lines selected, a Copy 2 Lines button" loading="lazy" class="cardimg">
+        <h3>Copy the words, not the pixels</h3>
+        <p>Double-click any line of text in a screenshot and press ⌘C. Line breaks and columns are kept, so tables paste straight into a spreadsheet. ⌃⇧4 grabs text from anywhere on screen — no screenshot needed. Recognition runs on your Mac.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="editor">
+  <div class="wrap">
+    <h2>Simple yet powerful editor</h2>
+    <p class="sub">Everything you need to explain a screenshot, nothing you have to learn.</p>
+    <div class="editorgrid">
+      <img src="img/editor.png" alt="The Clipveil editor: a curved red arrow pointing at an email, numbered steps 1 to 3, a translucent red box over a log line, a yellow highlight over a line of text, and a tilted red label reading Token leaked here with its rotation handle" loading="lazy">
+      <ul class="toollist">
+        <li><b>Arrows</b> — straight, bold, curved or double-headed; dashed if you like.</li>
+        <li><b>Rotate anything</b> — grab the knob above a box, label or mosaic and turn it; it snaps to 45°.</li>
+        <li><b>Numbered steps</b> — 1, 2, 3… or A, B, C… that renumber themselves.</li>
+        <li><b>Highlight &amp; spotlight</b> — mark a line, or dim everything except the part that matters.</li>
+        <li><b>Shapes &amp; text</b> — boxes and ovals with outline, translucent or solid fill; text in five fonts with an outline or label style.</li>
+        <li><b>One key per tool</b> — A for Arrow, T for Text, B for Black out, N for Number. ⌘Z undoes everything, crop included.</li>
+      </ul>
     </div>
   </div>
 </section>
