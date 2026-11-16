@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Clipveil — Screenshots ready to share</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif&display=swap');
+*{box-sizing:border-box}body{margin:0;background:#f8f6f0;color:#201d2d;font:16px 'DM Sans',system-ui,sans-serif}a{color:inherit}header,main,footer{width:min(1180px,calc(100% - 48px));margin:auto}header{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ded9d0}.brand{display:flex;align-items:center;gap:10px;font-weight:700;text-decoration:none}.brand img{width:34px}nav{display:flex;gap:24px;align-items:center}nav a{text-decoration:none}.hero{padding:70px 0 58px;display:grid;grid-template-columns:.85fr 1.15fr;gap:44px;align-items:center}h1,h2{font-family:'Instrument Serif',Georgia,serif;font-weight:400;line-height:.95;margin:0;letter-spacing:-.035em}h1{font-size:clamp(64px,7vw,110px)}h1 em{color:#603dcc}p{line-height:1.55;color:#504a60}.hero p{max-width:36ch;font-size:18px}.button{display:inline-block;background:#43269d;color:white;padding:13px 20px;border-radius:8px;font-weight:700;text-decoration:none}.note{display:block;margin-top:13px;color:#504a60;font-size:13px}.proof{background:#e8dfff;border-radius:20px;padding:20px;margin:0}.proof img,.feature img,video{width:100%;display:block;border-radius:8px}.proof fieldset{display:flex;gap:6px;border:0;padding:0;margin:0 0 12px}.proof button{font:inherit;font-size:14px;border:0;border-radius:6px;padding:7px 13px;color:#302546;background:transparent;cursor:pointer}.proof button[aria-pressed=true]{background:#fff;font-weight:700}.proof figcaption{margin-top:12px;font-size:14px}.workflows{border-top:1px solid #ded9d0;padding:54px 0}.workflows h2,.demo h2{font-size:clamp(48px,6vw,76px);margin-bottom:24px}.features{display:grid;grid-template-columns:1fr 1fr;gap:18px}.feature{background:#fff;border:1px solid #e1dcd5;border-radius:16px;padding:20px}.feature h3{font-size:22px;margin:16px 0 0}.feature p{margin-bottom:0}.tile{display:grid;grid-template-columns:1fr 1fr;gap:8px;background:#e8dfff;border-radius:8px;padding:12px}.tile span{font-size:12px;font-weight:700;display:block;margin-bottom:5px}.demo{padding:0 0 56px}video{background:#201d2d}footer{border-top:1px solid #ded9d0;padding:20px 0 28px;display:flex;justify-content:space-between}@media(max-width:760px){header,main,footer{width:calc(100% - 32px)}nav a:first-child{display:none}.hero{grid-template-columns:1fr;padding-top:40px;gap:24px}.features{grid-template-columns:1fr}}
+</style>
+<header><a class="brand" href="#top"><img src="assets/icon.png" alt="">Clipveil</a><nav><a href="#workflow">How it works</a><a href="#demo">Watch demo</a></nav></header>
+<main id="top">
+<section class="hero">
+<div><h1>Screenshots<br>ready to <em>share.</em></h1><p>Hide private details, copy error messages, and put before and after in one image. Right on your Mac.</p><a class="button" href="https://apps.apple.com/app/clipveil/id6825523061">Get Clipveil for Mac ↗</a><small class="note">Every feature is free. Pay once to remove the watermark.</small></div>
+<figure class="proof"><fieldset aria-label="Redaction example"><button type="button" aria-pressed="false" data-state="detect">Detected</button><button type="button" aria-pressed="true" data-state="blackout">Redacted</button></fieldset><img id="proof-image" src="assets/blackout.png" alt="Sample support ticket with sensitive details covered by solid black bars"><figcaption id="proof-caption" aria-live="polite">The private details are covered. The rest of the ticket stays readable.</figcaption></figure>
+</section>
+<section class="workflows" id="workflow"><h2>From capture to bug report.</h2><div class="features">
+<article class="feature"><div class="tile"><div><span>Before</span><img src="assets/detect.png" alt="Sample ticket before redaction"></div><div><span>After</span><img src="assets/blackout.png" alt="Sample ticket after redaction"></div></div><h3>Put two captures in one image.</h3><p>Tile screenshots to show what changed in a PR, ticket, or chat.</p></article>
+<article class="feature"><img src="assets/copytext.png" alt="Clipveil editor with recognized text selected"><h3>Copy the error, word for word.</h3><p>Select text in a screenshot and paste it straight into your report.</p></article>
+</div></section>
+<section class="demo" id="demo"><h2>See it in 15 seconds.</h2><video controls playsinline preload="metadata" poster="assets/blackout.png" src="clipveil-demo.mp4" aria-label="Clipveil feature preview"></video></section>
+</main><footer><strong>Clipveil</strong><a href="https://clipveil.app">Official site ↗</a></footer>
+<script>
+const image = document.querySelector('#proof-image');
+const caption = document.querySelector('#proof-caption');
+const buttons = document.querySelectorAll('[data-state]');
+for (const button of buttons) {
+  button.addEventListener('click', () => {
+    const detected = button.dataset.state === 'detect';
+    for (const option of buttons) option.setAttribute('aria-pressed', String(option === button));
+    image.src = detected ? 'assets/detect.png' : 'assets/blackout.png';
+    image.alt = detected ? 'Sample support ticket with sensitive details outlined in orange' : 'Sample support ticket with sensitive details covered by solid black bars';
+    caption.textContent = detected ? 'Clipveil outlines sensitive details when you capture.' : 'The private details are covered. The rest of the ticket stays readable.';
+  });
+}
+</script>
