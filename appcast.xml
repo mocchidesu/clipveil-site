@@ -3,6 +3,19 @@
     <channel>
         <title>Clipveil</title>
         <item>
+            <title>0.7.4</title>
+            <pubDate>Sun, 22 Nov 2026 19:35:48 -0800</pubDate>
+            <sparkle:version>157</sparkle:version>
+            <sparkle:shortVersionString>0.7.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://clipveil.app/releases/Clipveil-0.7.4.zip" length="3984875" type="application/octet-stream" sparkle:edSignature="+B4eM/KHjaw3wM9xiMGVAfvghM07Eg8IpThH6wYcmdnizrZv0+geEMl+3oFalFrpNj4ovgn5toMj1+1SLhaIAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://clipveil.app/releases/Clipveil157-149.delta" sparkle:deltaFrom="149" length="541110" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862416" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="XdBS9X97gPYsY3WD2DiqD3T2SgDZK01VnDP4ZnKXdKdR4fXBELDH5yNLngi75wHQdPfvbGcuupGB32GyTKwqDw=="/>
+                <enclosure url="https://clipveil.app/releases/Clipveil157-139.delta" sparkle:deltaFrom="139" length="1387602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862416" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="0ttSMW/SgibFym5ThjJz47PoRdaJ+bW4QXT64emi9PpTnQ5ttfF/1LCbY9Lkqh7hG1gY2tVAzXFg1vQKovHCBA=="/>
+                <enclosure url="https://clipveil.app/releases/Clipveil157-128.delta" sparkle:deltaFrom="128" length="1560654" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862416" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="gkWKatqeF7LBBNyo3nAbWN4tRZRtqM6zg9tQ8usnjG3U3ZzN0C8Y/11Xzn19uQtpqMFIW4six6W44s5gi4vbBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.7.3</title>
             <pubDate>Sun, 15 Nov 2026 17:47:14 -0800</pubDate>
             <sparkle:version>149</sparkle:version>
@@ -24,14 +37,6 @@
             <sparkle:deltas>
                 <enclosure url="https://clipveil.app/releases/Clipveil139-128.delta" sparkle:deltaFrom="128" length="452030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862416" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="5HqXhOE6Ws3cgMOSX2H1a5Rh/H9MtucBfibMEhiPwD8U1KCEntNycNsfy+WTqY0wes4gPckE56u9E63PefryAQ=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.6.11</title>
-            <pubDate>Mon, 09 Nov 2026 16:36:11 -0800</pubDate>
-            <sparkle:version>128</sparkle:version>
-            <sparkle:shortVersionString>0.6.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://clipveil.app/releases/Clipveil-0.6.11.zip" length="3627929" type="application/octet-stream" sparkle:edSignature="unMsjtlSjM81tHN0ujJ0STV+ptKcILBqsceSX/uELgBOS1zockFJOf22ZsO5R7XpNrG40BDBhHEUaWzzv0NBCw=="/>
         </item>
     </channel>
 </rss>
