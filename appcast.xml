@@ -3,6 +3,20 @@
     <channel>
         <title>Clipveil</title>
         <item>
+            <title>0.7.5</title>
+            <pubDate>Sun, 22 Nov 2026 20:21:50 -0800</pubDate>
+            <sparkle:version>162</sparkle:version>
+            <sparkle:shortVersionString>0.7.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://clipveil.app/releases/Clipveil-0.7.5.zip" length="3992055" type="application/octet-stream" sparkle:edSignature="G2/WRfrsaewgcaxRpOL0FsWWgqwoTixY1Tv16GFCF2dKthZb4qM/qPxUyA1fgMGjDDozVlhFSiHCBgnsZ699Bg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://clipveil.app/releases/Clipveil162-157.delta" sparkle:deltaFrom="157" length="299678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862416" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="2C0lq1M1tq/fcH1z3kKb2E/z96lPyZsjRqrL9rWYG6mWg3ztYmU6wU1Dk5CooKa7R6o+jJkai8bw+1b8CnrmDA=="/>
+                <enclosure url="https://clipveil.app/releases/Clipveil162-149.delta" sparkle:deltaFrom="149" length="598690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862416" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="APfwSoThukmUvx5W8PDtXWcVE6AD8p04zEC9ERi6zd/q4FgxO1AdQ76JI/hbMOqA2L6qB8K13oES0sVLrBPoCQ=="/>
+                <enclosure url="https://clipveil.app/releases/Clipveil162-139.delta" sparkle:deltaFrom="139" length="1437950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862416" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Ju4I0wHEAMYVln08qVwJtTWUWCU7Z6YJnKKKTfLb2zHFWMaGl1MqH123ne0AzizAtrw2eJ2o0cjM80IUpNuhBw=="/>
+                <enclosure url="https://clipveil.app/releases/Clipveil162-128.delta" sparkle:deltaFrom="128" length="1588362" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862416" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="iLHg/BNJPeuWrEH24zKU9/ccmtwEVlRNmR+NYAhFwjarhmYKTuqpDyGGpaALT6Co2hiFub/P9Cdsg4rQ6xKYDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.7.4</title>
             <pubDate>Sun, 22 Nov 2026 19:35:48 -0800</pubDate>
             <sparkle:version>157</sparkle:version>
@@ -25,17 +39,6 @@
             <sparkle:deltas>
                 <enclosure url="https://clipveil.app/releases/Clipveil149-139.delta" sparkle:deltaFrom="139" length="1131354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862416" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="EHREtM/6QeQEID1pYPjQf8gw1E5qMxJp9M89huFp7V//iiBZ+oOuld+vmH3IyYs0yF0SbzfCTmo0fTMRhenvCw=="/>
                 <enclosure url="https://clipveil.app/releases/Clipveil149-128.delta" sparkle:deltaFrom="128" length="1297506" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862416" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="GKCpsl/diwMgZ7sk1El2wWE/ls6iIyfBZF4nNCxr2klchtErCySZiiWjzrBaIGHjoCpvpisLEO2hMzcN0ISHAw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.7.1</title>
-            <pubDate>Sun, 15 Nov 2026 14:02:26 -0800</pubDate>
-            <sparkle:version>139</sparkle:version>
-            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://clipveil.app/releases/Clipveil-0.7.1.zip" length="3720148" type="application/octet-stream" sparkle:edSignature="s0CVTyYXQ6JrX1gHP5MtAS/f3SbjfF01botSnsWL385/Er75xEVdljt211byPR3lRPmU2TKYu8qII5loPDV2DQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://clipveil.app/releases/Clipveil139-128.delta" sparkle:deltaFrom="128" length="452030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862416" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="5HqXhOE6Ws3cgMOSX2H1a5Rh/H9MtucBfibMEhiPwD8U1KCEntNycNsfy+WTqY0wes4gPckE56u9E63PefryAQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
